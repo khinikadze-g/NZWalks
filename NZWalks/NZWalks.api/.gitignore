@@ -1,0 +1,21 @@
+﻿namespace NZWalks.api
+{
+    public class _
+    {
+        # Visual Studio temp files
+.vs/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Log files
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+    }
+}

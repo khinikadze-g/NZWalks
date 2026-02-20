@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|c:\\users\\asus\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\nzwalks.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|solutionrelative:nzwalks.api\\nzwalks.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NZWalks.api",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\NZWalks.api.csproj",
+              "RelativeDocumentMoniker": "NZWalks.api\\NZWalks.api.csproj",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\NZWalks.api.csproj",
+              "RelativeToolTip": "NZWalks.api\\NZWalks.api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-20T15:19:07.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
