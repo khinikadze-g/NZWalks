@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|c:\\users\\asus\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\nzwalks.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|solutionrelative:nzwalks.api\\nzwalks.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|c:\\users\\asus\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|solutionrelative:nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NZWalks.api",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\NZWalks.api.csproj",
-              "RelativeDocumentMoniker": "NZWalks.api\\NZWalks.api.csproj",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\NZWalks.api.csproj",
-              "RelativeToolTip": "NZWalks.api\\NZWalks.api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-20T15:19:07.605Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\Program.cs",
+              "RelativeDocumentMoniker": "NZWalks.api\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\Program.cs",
+              "RelativeToolTip": "NZWalks.api\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T14:56:02.709Z",
+              "EditorCaption": ""
             }
           ]
         }

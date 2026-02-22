@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +27,8 @@ namespace NZWalks.api.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Reader")]
+
 
         public async Task<IActionResult> GetAll()
         {
@@ -36,6 +39,8 @@ namespace NZWalks.api.Controllers
 
         [HttpGet]
         [Route("{id:guid}")]
+        [Authorize(Roles = "Reader")]
+
 
         public async Task <IActionResult> GetById([FromRoute] Guid id)
         { 
@@ -53,6 +58,8 @@ namespace NZWalks.api.Controllers
 
        [HttpPost]
        [ValidateModel]
+       [Authorize(Roles = "Writer")]
+
         public async Task <IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
             var regionDomainModel = mapper.Map<Region>(addRegionRequestDto);
@@ -67,6 +74,9 @@ namespace NZWalks.api.Controllers
         [HttpPut]
         [Route("{id:guid}")]
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
+
+
         public async Task <IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateRegionDto updateRegionDto)
         {
             var regionDomainModel = mapper.Map<Region>(updateRegionDto);
@@ -91,6 +101,8 @@ namespace NZWalks.api.Controllers
 
         [HttpDelete]
         [Route("{id:guid}")]
+        [Authorize(Roles = "Writer")]
+
 
         public async Task <IActionResult> Delete([FromRoute] Guid id)
         {
