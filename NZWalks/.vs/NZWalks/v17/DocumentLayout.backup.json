@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|c:\\users\\asus\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|solutionrelative:nzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|c:\\users\\asus\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|solutionrelative:nzwalks.api\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|c:\\users\\asus\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A73B79E-9C84-4425-8C81-9A5748FA7975}|NZWalks.api\\NZWalks.api.csproj|solutionrelative:nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +30,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "NZWalks.api\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "NZWalks.api\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:18:51.873Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WalksController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\Controllers\\WalksController.cs",
+              "RelativeDocumentMoniker": "NZWalks.api\\Controllers\\WalksController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\Controllers\\WalksController.cs*",
+              "RelativeToolTip": "NZWalks.api\\Controllers\\WalksController.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:14:57.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\Program.cs",
               "RelativeDocumentMoniker": "NZWalks.api\\Program.cs",
               "ToolTip": "C:\\Users\\asus\\Desktop\\NZWalks\\NZWalks\\NZWalks.api\\Program.cs",
               "RelativeToolTip": "NZWalks.api\\Program.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAHgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T14:56:02.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T17:21:10.257Z"
             }
           ]
         }

@@ -8,6 +8,7 @@ using NZWalks.api.Data;
 using NZWalks.api.models.domain;
 using NZWalks.api.models.DTO;
 using NZWalks.api.Repositories;
+using System.Text.Json;
 
 namespace NZWalks.api.Controllers
 {
@@ -18,12 +19,16 @@ namespace NZWalks.api.Controllers
         private readonly NZWalkDbContext dbContext;
         private readonly IRegionRepository regionRepository;
         private readonly IMapper mapper;
+        private readonly ILogger<RegionsController> logger;
 
-        public RegionsController(NZWalkDbContext dbContext, IRegionRepository regionRepository,IMapper mapper)
+        public RegionsController(NZWalkDbContext dbContext, IRegionRepository regionRepository,IMapper mapper, 
+            ILogger<RegionsController> logger)
+            
         {
             this.dbContext = dbContext;
             this.regionRepository = regionRepository;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
         [HttpGet]
